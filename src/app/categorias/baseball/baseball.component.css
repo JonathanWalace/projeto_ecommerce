@@ -1,0 +1,8 @@
+.categorias li{
+    font-weight: bold;
+    background-color: #D71212;
+}
+
+.categorias li a{
+    color: rgb(27, 27, 27);
+}

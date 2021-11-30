@@ -1,0 +1,25 @@
+<div class="background">
+    <div class="teste"></div>
+    <div class="nav">
+        <img src="assets/extreme_logo.png">
+    </div>
+    <div class="backgroundMenu">
+        <div class="categorias">
+            <li class="home" style="font-weight: bolder"><a [routerLink]="['/home']" routerLinkActive="active">HOME</a></li>
+            <div class="linha"></div>
+            <li><a [routerLink]="['/baseball']" routerLinkActive="active">Baseball</a></li>
+            <li><a [routerLink]="['/ciclismo']" routerLinkActive="active">Ciclismo</a></li>
+            <li><a [routerLink]="['/corrida']" routerLinkActive="active">Corrida</a></li>
+            <li><a [routerLink]="['/futebol']" routerLinkActive="active">Futebol</a></li>
+            <li><a [routerLink]="['/futsal']" routerLinkActive="active">Futsal</a></li>
+            <li><a [routerLink]="['/motocross']" routerLinkActive="active">Motocross</a></li>
+            <li><a [routerLink]="['/natacao']" routerLinkActive="active">Natação</a></li>
+            <li><a [routerLink]="['/rugby']" routerLinkActive="active">Rugby</a></li>
+            <li><a [routerLink]="['/skate']" routerLinkActive="active">Skate</a></li>
+            <li><a [routerLink]="['/volei']" routerLinkActive="active">Vôlei</a></li>
+        </div>
+        
+    </div>
+    <router-outlet></router-outlet>
+    <div class="teste"></div>
+</div>
